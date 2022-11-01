@@ -10,6 +10,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FormsModule } from '@angular/forms';
 import { TrainingComponent } from './training/training.component';
+import { LoaniqComponent } from './loaniq/loaniq.component';
+import { CondorComponent } from './condor/condor.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { TrainingComponent } from './training/training.component';
     ServicesComponent,
     PagenotfoundComponent,
     ContactsComponent,
-    TrainingComponent
+    TrainingComponent,
+    LoaniqComponent,
+    CondorComponent
   ],
   imports: [
     BrowserModule,
