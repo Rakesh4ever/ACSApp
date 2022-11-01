@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { TrainingComponent } from './training/training.component';
 import { LoaniqComponent } from './loaniq/loaniq.component';
 import { CondorComponent } from './condor/condor.component';
+import { FfcComponent } from './ffc/ffc.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CondorComponent } from './condor/condor.component';
     ContactsComponent,
     TrainingComponent,
     LoaniqComponent,
-    CondorComponent
+    CondorComponent,
+    FfcComponent
   ],
   imports: [
     BrowserModule,
