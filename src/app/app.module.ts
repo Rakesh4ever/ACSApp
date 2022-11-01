@@ -7,6 +7,9 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { FormsModule } from '@angular/forms';
+import { TrainingComponent } from './training/training.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     AboutComponent,
     HomeComponent,
     ServicesComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    ContactsComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
