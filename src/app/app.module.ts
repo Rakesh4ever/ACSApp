@@ -11,6 +11,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { FormsModule } from '@angular/forms';
 import { TrainingComponent } from './training/training.component';
 import { LoaniqComponent } from './loaniq/loaniq.component';
+import { CondorComponent } from './condor/condor.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoaniqComponent } from './loaniq/loaniq.component';
     PagenotfoundComponent,
     ContactsComponent,
     TrainingComponent,
-    LoaniqComponent
+    LoaniqComponent,
+    CondorComponent
   ],
   imports: [
     BrowserModule,
