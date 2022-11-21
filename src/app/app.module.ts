@@ -16,6 +16,7 @@ import { LoaniqComponent } from './loaniq/loaniq.component';
 import { CondorComponent } from './condor/condor.component';
 import { FfcComponent } from './ffc/ffc.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { LoaniqwsComponent } from './loaniqws/loaniqws.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RegistrationComponent } from './registration/registration.component';
     LoaniqComponent,
     CondorComponent,
     FfcComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    LoaniqwsComponent
   ],
   imports: [
     BrowserModule,
