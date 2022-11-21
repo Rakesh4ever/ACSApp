@@ -6,6 +6,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { FfcComponent } from './ffc/ffc.component';
 import { HomeComponent } from './home/home.component';
 import { LoaniqComponent } from './loaniq/loaniq.component';
+import { LoaniqwsComponent } from './loaniqws/loaniqws.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ServicesComponent } from './services/services.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
 
   {path:'contacts',component:ContactsComponent},
   {path:'career',component:RegistrationComponent},
+  {path:'loaniqws',component:LoaniqwsComponent},
   {path:'**',component:PagenotfoundComponent}
 ];
 

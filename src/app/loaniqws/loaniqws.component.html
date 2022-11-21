@@ -1,0 +1,15 @@
+<p>loaniqws works!</p>
+
+<form #customerPost="ngForm" (ngSubmit)="onSubmit(customerPost.value)">
+    <input type="text" name="customerName" ngModel placeholder="customerName" ><br><br>
+    <input type="number" name="age" ngModel placeholder="age" ><br><br>
+    <input type="number" name="yearlyIncome" ngModel placeholder="yearlyIncome" ><br><br>
+    <input type="number" name="cibilScore" ngModel placeholder="cibilScore" ><br><br>
+    <input type="text" name="employmentMode" ngModel placeholder="employmentMode" ><br><br>
+    <button type="submit" >Submit</button>
+</form>
+
+<h2>Responses</h2>
+  <ng-container *ngFor="let res of customerResponses">
+    {{ res.isEligible }} - {{ res.approvedAmount }} - {{ res.criteriaMismatch }}<br />
+</ng-container>
